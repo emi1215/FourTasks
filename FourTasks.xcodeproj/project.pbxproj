@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A525813C27EC93B600EBA4AB /* Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A525813B27EC93B600EBA4AB /* Task1.swift */; };
+		A525813E27ECA66400EBA4AB /* Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A525813D27ECA66400EBA4AB /* Task2.swift */; };
+		A525814027ECA6FC00EBA4AB /* Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A525813F27ECA6FC00EBA4AB /* Task3.swift */; };
+		A525814227ECA76600EBA4AB /* Task4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A525814127ECA76600EBA4AB /* Task4.swift */; };
 		A52A0B9A27EAE59800B30054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52A0B9927EAE59800B30054 /* AppDelegate.swift */; };
 		A52A0B9C27EAE59800B30054 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52A0B9B27EAE59800B30054 /* SceneDelegate.swift */; };
 		A52A0B9E27EAE59800B30054 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52A0B9D27EAE59800B30054 /* ViewController.swift */; };
@@ -27,6 +31,10 @@
 /* Begin PBXFileReference section */
 		34C66649BE1B27C4860782A4 /* Pods_FourTasks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FourTasks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3E3302A4D8A7EB0D6FCC35 /* Pods-FourTasks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourTasks.debug.xcconfig"; path = "Target Support Files/Pods-FourTasks/Pods-FourTasks.debug.xcconfig"; sourceTree = "<group>"; };
+		A525813B27EC93B600EBA4AB /* Task1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1.swift; sourceTree = "<group>"; };
+		A525813D27ECA66400EBA4AB /* Task2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2.swift; sourceTree = "<group>"; };
+		A525813F27ECA6FC00EBA4AB /* Task3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3.swift; sourceTree = "<group>"; };
+		A525814127ECA76600EBA4AB /* Task4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task4.swift; sourceTree = "<group>"; };
 		A52A0B9627EAE59800B30054 /* FourTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52A0B9927EAE59800B30054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A52A0B9B27EAE59800B30054 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +98,10 @@
 				A53C110527EBFED500E9E7C7 /* Task3InputViewController.swift */,
 				A53C110127EBFA0D00E9E7C7 /* Task4ViewController.swift */,
 				A53C110727EBFF3900E9E7C7 /* Task4InputViewController.swift */,
+				A525813B27EC93B600EBA4AB /* Task1.swift */,
+				A525813D27ECA66400EBA4AB /* Task2.swift */,
+				A525813F27ECA6FC00EBA4AB /* Task3.swift */,
+				A525814127ECA76600EBA4AB /* Task4.swift */,
 				A52A0B9F27EAE59800B30054 /* Main.storyboard */,
 				A52A0BA227EAE59900B30054 /* Assets.xcassets */,
 				A52A0BA427EAE59900B30054 /* LaunchScreen.storyboard */,
@@ -233,12 +245,16 @@
 				A52A0BB627EB080E00B30054 /* Task2ViewController.swift in Sources */,
 				A53C110827EBFF3900E9E7C7 /* Task4InputViewController.swift in Sources */,
 				A53C110427EBFDE700E9E7C7 /* Task2InputViewController.swift in Sources */,
+				A525813E27ECA66400EBA4AB /* Task2.swift in Sources */,
 				A52A0BB027EAF42400B30054 /* Task1InputViewController.swift in Sources */,
+				A525813C27EC93B600EBA4AB /* Task1.swift in Sources */,
+				A525814027ECA6FC00EBA4AB /* Task3.swift in Sources */,
 				A53C110227EBFA0D00E9E7C7 /* Task4ViewController.swift in Sources */,
 				A53C110627EBFED500E9E7C7 /* Task3InputViewController.swift in Sources */,
 				A52A0B9E27EAE59800B30054 /* ViewController.swift in Sources */,
 				A52A0B9A27EAE59800B30054 /* AppDelegate.swift in Sources */,
 				A52A0BB827EB0A2900B30054 /* Task3ViewController.swift in Sources */,
+				A525814227ECA76600EBA4AB /* Task4.swift in Sources */,
 				A52A0B9C27EAE59800B30054 /* SceneDelegate.swift in Sources */,
 				A52A0BAE27EAEAD600B30054 /* Task1ViewController.swift in Sources */,
 			);
