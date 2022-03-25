@@ -25,6 +25,7 @@
 		A53C110427EBFDE700E9E7C7 /* Task2InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53C110327EBFDE700E9E7C7 /* Task2InputViewController.swift */; };
 		A53C110627EBFED500E9E7C7 /* Task3InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53C110527EBFED500E9E7C7 /* Task3InputViewController.swift */; };
 		A53C110827EBFF3900E9E7C7 /* Task4InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53C110727EBFF3900E9E7C7 /* Task4InputViewController.swift */; };
+		A5660E9427EDF7E400282D04 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5660E9327EDF7E400282D04 /* View.swift */; };
 		AB72D6DD4B302BC7F60DA2C5 /* Pods_FourTasks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C66649BE1B27C4860782A4 /* Pods_FourTasks.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		A53C110327EBFDE700E9E7C7 /* Task2InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2InputViewController.swift; sourceTree = "<group>"; };
 		A53C110527EBFED500E9E7C7 /* Task3InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3InputViewController.swift; sourceTree = "<group>"; };
 		A53C110727EBFF3900E9E7C7 /* Task4InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task4InputViewController.swift; sourceTree = "<group>"; };
+		A5660E9327EDF7E400282D04 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		BAC20CB339859DCBACDF4788 /* Pods-FourTasks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourTasks.release.xcconfig"; path = "Target Support Files/Pods-FourTasks/Pods-FourTasks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +100,7 @@
 				A53C110527EBFED500E9E7C7 /* Task3InputViewController.swift */,
 				A53C110127EBFA0D00E9E7C7 /* Task4ViewController.swift */,
 				A53C110727EBFF3900E9E7C7 /* Task4InputViewController.swift */,
+				A5660E9327EDF7E400282D04 /* View.swift */,
 				A525813B27EC93B600EBA4AB /* Task1.swift */,
 				A525813D27ECA66400EBA4AB /* Task2.swift */,
 				A525813F27ECA6FC00EBA4AB /* Task3.swift */,
@@ -242,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5660E9427EDF7E400282D04 /* View.swift in Sources */,
 				A52A0BB627EB080E00B30054 /* Task2ViewController.swift in Sources */,
 				A53C110827EBFF3900E9E7C7 /* Task4InputViewController.swift in Sources */,
 				A53C110427EBFDE700E9E7C7 /* Task2InputViewController.swift in Sources */,
