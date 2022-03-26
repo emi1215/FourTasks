@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var task4CategoryTextField: UITextField!
     
     let realm = try! Realm()
-    var task: View
+    var task: View!
     
     override func viewDidLoad() {
         super.viewDidLoad()

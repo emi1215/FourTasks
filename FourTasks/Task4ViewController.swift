@@ -16,7 +16,7 @@ class Task4ViewController: UIViewController,UITableViewDelegate, UITableViewData
     var taskArray = try! Realm().objects(Task4.self).sorted(byKeyPath: "date4", ascending: true)
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
-            let task4InputViewController:Task4InputViewController = segue.destination as! Task4InputViewController
+            let task4InputViewController:ViewController = segue.destination as! ViewController
 
             if segue.identifier == "task4CellSegue" {
                 let indexPath = self.task4TableView.indexPathForSelectedRow
