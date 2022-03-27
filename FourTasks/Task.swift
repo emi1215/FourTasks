@@ -7,7 +7,7 @@
 
 import RealmSwift
 
-class View: Object {
+class Task: Object {
     // カテゴリー１
     @objc dynamic var category1 = ""
 

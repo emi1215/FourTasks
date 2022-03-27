@@ -17,20 +17,6 @@ class Task2ViewController: UIViewController,UITableViewDelegate, UITableViewData
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
             let task2InputViewController:ViewController = segue.destination as! ViewController
-
-            if segue.identifier == "task2CellSegue" {
-                let indexPath = self.task2TableView.indexPathForSelectedRow
-                task2InputViewController.task = taskArray[indexPath!.row]
-            } else {
-                let task = Task2()
-
-                let allTasks = realm.objects(Task2.self)
-                if allTasks.count != 0 {
-                    task.id2 = allTasks.max(ofProperty: "id")! + 1
-                }
-
-                task2InputViewController.task = task
-            }
         }
     
     override func viewWillAppear(_ animated: Bool) {

@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var task4CategoryTextField: UITextField!
     
     let realm = try! Realm()
-    var task: View!
+    var task = try! Realm().objects(Task.self).sorted(byKeyPath: "date", ascending: true)
     
     override func viewDidLoad() {
         super.viewDidLoad()

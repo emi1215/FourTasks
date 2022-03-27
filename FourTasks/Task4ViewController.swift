@@ -18,19 +18,6 @@ class Task4ViewController: UIViewController,UITableViewDelegate, UITableViewData
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
             let task4InputViewController:ViewController = segue.destination as! ViewController
 
-            if segue.identifier == "task4CellSegue" {
-                let indexPath = self.task4TableView.indexPathForSelectedRow
-                task4InputViewController.task = taskArray[indexPath!.row]
-            } else {
-                let task = Task4()
-
-                let allTasks = realm.objects(Task4.self)
-                if allTasks.count != 0 {
-                    task.id4 = allTasks.max(ofProperty: "id")! + 1
-                }
-
-                task4InputViewController.task = task
-            }
         }
     
     override func viewWillAppear(_ animated: Bool) {
